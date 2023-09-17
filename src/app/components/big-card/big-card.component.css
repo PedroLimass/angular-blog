@@ -1,0 +1,35 @@
+.container-big-card {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.big-card-title > h1{
+  font-size: 20px;
+
+  margin-top: 15px;
+}
+
+.big-card-description > p {
+  color: grey;
+  margin-top: 15px;
+}
+
+.crop img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.crop {
+  /* height: 100px;  */
+  /* width: 300px; */
+}

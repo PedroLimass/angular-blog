@@ -1,0 +1,12 @@
+.container-menu-bar > ul {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  list-style: none;
+}
+
+.container-menu-bar > ul > li:hover {
+  text-decoration: underline;
+}
