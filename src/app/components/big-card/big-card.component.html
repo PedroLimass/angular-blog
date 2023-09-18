@@ -1,5 +1,5 @@
 <div class="container-big-card">
-  <a href="#">
+  <a [routerLink]="['content', id]">
     <div class="big-card-photo">
       <div class="crop">
         <img
@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="big-card-title">
-      <h1>{{Title}}</h1>
+      <h1><a [routerLink]="['content', id]">{{Title}}</a></h1>
     </div>
     <div class="big-card-description">
       <p>

@@ -12,6 +12,7 @@ export class BigCardComponent implements OnInit {
   @Input() UrlContet:string = ''
   @Input() Title:string = ''
   @Input() contentText:string = ''
+  @Input() id: string = '0'
   ngOnInit(): void {
   }
 
