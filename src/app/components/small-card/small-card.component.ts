@@ -6,9 +6,11 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./small-card.component.css']
 })
 export class SmallCardComponent implements OnInit {
-
+  @Input() photoCover:string = ""
+  @Input() cardTitle:string = ""
+  @Input() cardContent:string= ""
   constructor() { }
-  @Input() UrlData:string = ''
+
 
   ngOnInit(): void {
   }

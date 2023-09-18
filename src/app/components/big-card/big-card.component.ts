@@ -10,6 +10,8 @@ export class BigCardComponent implements OnInit {
   constructor() { }
 
   @Input() UrlContet:string = ''
+  @Input() Title:string = ''
+  @Input() contentText:string = ''
   ngOnInit(): void {
   }
 
